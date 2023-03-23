@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task Extension</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="popup.js"></script>
+    <style>
+        body {
+            width: 600px;
+        }
+
+        /* Style the close button */
+        .close {
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 12px 16px 12px 16px;
+        }
+
+        .close:hover {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .close1 {
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 12px 16px 12px 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div  class="container">
+        <div class="row">
+            <div class="col-12" id="todo-section">
+    
+                <div class="container-fluid">
+                    <p id="date" class="display-6">Task checklist for </p>
+                </div>
+                <hr/>
+    
+                <div id="addTaskDiv" class="header input-group mb-3">
+                    <input class="form-control" type="text" id="taskInput" placeholder=" ">
+                    <input type="submit" id="addButtonTask" class="addBtn btn btn-outline-secondary" value="Add Task">
+                </div>
+                <hr/>
+
+                <ul id="todo-listUl" class="list-group">
+                </ul>
+            </div>
+        </div>
+
+        <footer class="copyright">&copy; Copyright 2018 <a href="https://PoojaB26.github.io">Pooja Bhaumik</a></footer>
+
+    </div>
+
+
+    <script src="bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
